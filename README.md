@@ -25,8 +25,5 @@
 ![alt tag](https://github.com/TristateAndroid/FirebaseOneToOneChat/blob/master/device-2016-08-30-112139.png)
 
 
-**Also here Linkedin Kind Of Intro Animation for Ios**
-
-Please check below link for linkedin type animation Source code :
-https://github.com/HemantDixit10/LinkdinIntroAnimation
+**Please check below link for linkedin type animation Source code :https://github.com/HemantDixit10/LinkdinIntroAnimation**
 
