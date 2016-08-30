@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/corner_radius"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llOpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_delete" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llSenderView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/margin_very_very_big"
+        android:background="@drawable/chat_bubble"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_medium"
+        android:paddingRight="@dimen/margin_medium"
+        android:paddingTop="@dimen/margin_small">
+        <!-- <ImageView
+             android:src="@drawable/chat_bubble_rec"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />-->
+        <TextView
+            android:id="@+id/tvSenderView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Sender Message"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/tvTimeStampSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="20-04-2016 9:55 PM"
+            android:textColor="@color/shabbat_text_color"
+            android:textSize="@dimen/textsize_verysmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llReciverView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_very_very_big"
+        android:background="@drawable/chat_bubble_rec"
+        android:clipToPadding="false"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_medium"
+        android:paddingRight="@dimen/margin_medium"
+        android:paddingTop="@dimen/margin_small">
+
+        <TextView
+            android:id="@+id/tvReciverView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Sender Message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/tvTimeStampReciver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="20-04-2016 9:55 PM"
+            android:textColor="@color/shabbat_text_color"
+            android:textSize="@dimen/textsize_verysmall" />
+    </LinearLayout>
+
+
+</LinearLayout>

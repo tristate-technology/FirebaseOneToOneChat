@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="margin_very_big">25dp</dimen>
+    <dimen name="margin_above_forgot">90dp</dimen>
+    <dimen name="radio_divider_margin">40dp</dimen>
+
+    <dimen name="corner_radius">4dp</dimen>
+
+    <dimen name="textsize_verysmall">8sp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="textsize_date">14sp</dimen>
+    <dimen name="textsize_midle">15sp</dimen>
+    <dimen name="textsize_normal">16sp</dimen>
+    <dimen name="textsize_medium">18sp</dimen>
+    <dimen name="textsize_large">20sp</dimen>
+    <dimen name="textsize_big">21sp</dimen>
+    <dimen name="textsize_very_big">27sp</dimen>
+
+    <dimen name="tab_height_new">52dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_top_height">40dp</dimen>
+    <dimen name="progress_view_size">36dp</dimen>
+    <dimen name="login_button_height">45dp</dimen>
+    <dimen name="divider_line_size">0.5dp</dimen>
+    <dimen name="selected_tab_indicator">3dp</dimen>
+    <dimen name="preferance_image_height">215dp</dimen>
+    <dimen name="tvHeight">50dp</dimen>
+    <dimen name="chat_user_height">70dp</dimen>
+</resources>

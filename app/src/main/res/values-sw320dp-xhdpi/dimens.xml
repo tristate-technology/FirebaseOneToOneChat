@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="margin_medium">30dp</dimen>
+    <dimen name="textsize_normal">25sp</dimen>-->
+
+    <dimen name="chat_user_height">70dp</dimen>
+</resources>

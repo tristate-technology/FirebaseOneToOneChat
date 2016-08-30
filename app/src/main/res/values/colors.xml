@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009587</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGrayTitle">#BBBBBB</color>
+    <color name="tranparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#40B149</color>
+    <color name="titleColor">#40B34B</color>
+    <color name="greenStatusBar">#2F8638</color>
+    <color name="colorOrange">#FB6E52</color>
+    <color name="colorOrangeTrans">#BBFB6E52</color>
+    <color name="alert_button">#FF03A9F4</color>
+    <color name="logo_text_color">#57545B</color>
+    <color name="tab_gray_background">#F9F9F9</color>
+    <color name="divider_color">#99B2B2B2</color>
+    <color name="tab_bar_text_color">#545454</color>
+    <color name="shabbat_text_color">#555555</color>
+    <color name="more_screen_back_color">#F5F4F4</color>
+    <color name="avatar_back_color">#a2a8b4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9040B34B</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+    <color name="item_add_box_color">#E0E0EA</color>
+    <color name="item_add_border_color">#C4C7D7</color>
+    <color name="divider_cohost_color">#55999999</color>
+    <color name="hosted_text_color">#939393</color>
+    <color name="progress_back_color">#77000000</color>
+    <color name="swipe_back_backgroudn">#434A54</color>
+    <color name="online_border_color">#14A983</color>
+    <color name="online_back_color">#49CFAE</color>
+    <color name="last_msg_text_color">#A6A6A6</color>
+    <color name="badge_color">#AAD8433C</color>
+    <color name="list_selector_color">#7740B34B</color>
+    <color name="date_bg_color">#44000000</color>
+    <color name="dark_white">#F5F5F5</color>
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="progress_colors_dark">
+        <item>#FF00E5FF</item>
+        <item>#ffd81d5a</item>
+        <item>#fff27512</item>
+        <item>#ff63bc34</item>
+    </array>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+    <array name="in_colors_dark">
+        <item>#4B00E5FF</item>
+        <item>#3300E5FF</item>
+        <item>#1900E5FF</item>
+    </array>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+   >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/llMainChat"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        >
+
+        <com.tristate.firebasechat.custome_view.CircleImageView
+            android:id="@+id/imgUser"
+            android:layout_width="@dimen/tab_top_height"
+            android:layout_height="@dimen/tab_top_height"
+
+            app:civ_border_color="@color/dark_white"
+            app:civ_border_width="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/margin_medium"
+         >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toLeftOf="@+id/badgeChat"
+                android:layout_toStartOf="@+id/badgeChat"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="Dhaval Solanki"
+                    android:textSize="@dimen/textsize_midle" />
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:ems="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="Online"
+                    android:textColor="@color/greenStatusBar"
+                    android:textSize="@dimen/textsize_small" />
+            </LinearLayout>
+            <com.tristate.firebasechat.custome_view.BadgeView
+                android:id="@+id/badgeChat"
+                android:layout_width="@dimen/margin_very_big"
+                android:layout_height="@dimen/margin_very_big"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/badge_bg"
+                android:gravity="center"
+                android:padding="@dimen/corner_radius"
+                android:text="999"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_verysmall"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_alignBottom="@id/llMainChat"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:background="@color/avatar_back_color"
+        android:layout_height="1dp"
+        ></View>
+</RelativeLayout>

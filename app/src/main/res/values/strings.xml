@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">One-to-One Chat</string>
+    <string name="titleLogin">Firebase Chat</string>
+
+    <string name="facebook_app_id">XXXXXXXXXXXX</string><!-- change with your facebook api key-->
+    <string name="search_user">Search User</string>
+    <string name="temp_msg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. </string>
+    <string name="temp_date">10 min ago</string>
+    <string name="hint_search">Search User</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
