@@ -25,5 +25,5 @@
 ![alt tag](https://github.com/TristateAndroid/FirebaseOneToOneChat/blob/master/device-2016-08-30-112139.png)
 
 
-**Please check below link for linkedin type animation Source code :https://github.com/HemantDixit10/LinkdinIntroAnimation**
+**Please check below link for linkedin type animation demo for iOS: https://github.com/HemantDixit10/LinkdinIntroAnimation**
 
