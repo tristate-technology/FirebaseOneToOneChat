@@ -11,5 +11,5 @@
 	
 **3.Configure project in firebase console**
 
-	-In firebase console after select your app you find one new page, From this page select Auth menu from left side menu list and after that you find one tab SIGN-IN METHOD select it and after allow facebook is sign in provide.
+	-In firebase console after select your app you find one new page, From this page select Auth menu from left side menu list and after that you find one tab SIGN-IN METHOD select it and after allow email/password is sign in provide.
 
