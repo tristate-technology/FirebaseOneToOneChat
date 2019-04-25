@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tristate.firebasechat">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tristate.javafirebaseonetoonechat">
 
     <application
-        android:name=".FirebaseChat"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -28,22 +22,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.UserList"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:name=".ChatUserListActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ChatConversationList"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ChatConverstion"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FirebaseOneToOneChat.iml" filepath="$PROJECT_DIR$/FirebaseOneToOneChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dFirebaseJava.iml" filepath="$PROJECT_DIR$/dFirebaseJava.iml" />
     </modules>
   </component>
 </project>
